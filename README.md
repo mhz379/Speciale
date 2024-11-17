@@ -1,2 +1,2 @@
 # Speciale
-Speciale 2024, Valder Østergaard Fredens
+Speciale 2024
