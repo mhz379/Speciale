@@ -1,0 +1,33 @@
+Starting Dynare (version 6.0).
+Calling Dynare with arguments: nostrict
+Starting preprocessing of the model file ... 
+WARNING: A parameter was used with a lead or a lag in the model block 
+WARNING: s74 su74 not used in model block, removed by nostrict command-line option 
+WARNING: 'I' not used in model block, removed by nostrict command-line option 
+Substitution of exo leads: added 43 auxiliary variables and equations. 
+Substitution of exo lags: added 149 auxiliary variables and equations. 
+Found 591 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Normalization failed with cutoff, trying symbolic normalization... 
+Finding the optimal block decomposition of the static model... 
+6 block(s) found: 
+  4 recursive block(s) and 2 simultaneous block(s). 
+  the largest simultaneous block has 317 equation(s) 
+                                 and 317 feedback variable(s). 
+Computing dynamic model derivatives (order 1). 
+Normalizing the dynamic model... 
+Normalization failed with cutoff, trying symbolic normalization... 
+Finding the optimal block decomposition of the dynamic model... 
+6 block(s) found: 
+  4 recursive block(s) and 2 simultaneous block(s). 
+  the largest simultaneous block has 317 equation(s) 
+                                 and 272 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m01s.
+
+Perfect foresight solution found.
+
+Total computing time : 0h00m14s
+Note: 3 warning(s) encountered in the preprocessor
