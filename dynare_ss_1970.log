@@ -1,0 +1,412 @@
+Starting Dynare (version 6.0).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ... 
+Found 362 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Normalization failed with cutoff, trying symbolic normalization... 
+Finding the optimal block decomposition of the static model... 
+5 block(s) found: 
+  4 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 276 equation(s) 
+                                 and 276 feedback variable(s). 
+Computing dynamic model derivatives (order 2). 
+Normalizing the dynamic model... 
+Normalization failed with cutoff, trying symbolic normalization... 
+Finding the optimal block decomposition of the dynamic model... 
+5 block(s) found: 
+  4 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 276 equation(s) 
+                                 and 150 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m01s.
+
+STEADY-STATE RESULTS:
+
+n1          		 1
+n2          		 0.985233
+n3          		 0.970681
+n4          		 0.956373
+n5          		 0.942205
+n6          		 0.928264
+n7          		 0.914489
+n8          		 0.900793
+n9          		 0.887234
+n10         		 0.873784
+n11         		 0.860427
+n12         		 0.84709
+n13         		 0.833885
+n14         		 0.820742
+n15         		 0.807654
+n16         		 0.79454
+n17         		 0.781414
+n18         		 0.768405
+n19         		 0.755236
+n20         		 0.742121
+n21         		 0.728934
+n22         		 0.715622
+n23         		 0.702303
+n24         		 0.688914
+n25         		 0.675516
+n26         		 0.661861
+n27         		 0.648135
+n28         		 0.634455
+n29         		 0.62041
+n30         		 0.606309
+n31         		 0.591876
+n32         		 0.577267
+n33         		 0.562536
+n34         		 0.547481
+n35         		 0.532352
+n36         		 0.516931
+n37         		 0.501378
+n38         		 0.485952
+n39         		 0.46981
+n40         		 0.453595
+n41         		 0.437266
+n42         		 0.420279
+n43         		 0.403679
+n44         		 0.386788
+n45         		 0.369953
+n46         		 0.352226
+n47         		 0.334569
+n48         		 0.317886
+n49         		 0.300109
+n50         		 0.282379
+n51         		 0.264159
+n52         		 0.246124
+n53         		 0.228343
+n54         		 0.210963
+n55         		 0.193533
+n56         		 0.176467
+n57         		 0.159656
+n58         		 0.143747
+n59         		 0.128038
+n60         		 0.112922
+n61         		 0.0984755
+n62         		 0.0848811
+n63         		 0.0722842
+n64         		 0.060835
+n65         		 0.0505687
+n66         		 0.0414961
+n67         		 0.0332187
+n68         		 0.0264245
+n69         		 0.0205406
+n70         		 0.0156823
+n71         		 0.0116898
+n72         		 0.00857501
+n73         		 0.00615048
+n74         		 0.00431607
+c1          		 1.10777
+c2          		 1.12949
+c3          		 1.24748
+c4          		 1.37036
+c5          		 1.48819
+c6          		 1.60175
+c7          		 1.71302
+c8          		 1.82477
+c9          		 1.93516
+c10         		 1.97668
+c11         		 2.01544
+c12         		 2.05496
+c13         		 2.09526
+c14         		 2.13634
+c15         		 2.17823
+c16         		 2.22095
+c17         		 2.2645
+c18         		 2.3089
+c19         		 2.35418
+c20         		 2.40034
+c21         		 2.44741
+c22         		 2.4954
+c23         		 2.54433
+c24         		 2.59423
+c25         		 2.6451
+c26         		 2.69696
+c27         		 2.74985
+c28         		 2.80377
+c29         		 2.85875
+c30         		 2.91481
+c31         		 2.97197
+c32         		 3.03024
+c33         		 3.08966
+c34         		 3.15025
+c35         		 3.21202
+c36         		 3.27501
+c37         		 3.33923
+c38         		 3.40471
+c39         		 3.47147
+c40         		 3.53954
+c41         		 3.60895
+c42         		 3.67972
+c43         		 3.75188
+c44         		 3.82545
+c45         		 3.90046
+c46         		 3.97694
+c47         		 4.05493
+c48         		 4.13444
+c49         		 4.21552
+c50         		 4.29818
+c51         		 4.38246
+c52         		 4.4684
+c53         		 4.55602
+c54         		 4.64536
+c55         		 4.73645
+c56         		 4.82933
+c57         		 4.92403
+c58         		 5.02058
+c59         		 5.11903
+c60         		 5.21941
+c61         		 5.32176
+c62         		 5.42612
+c63         		 5.53252
+c64         		 5.641
+c65         		 5.75162
+c66         		 5.8644
+c67         		 5.9794
+c68         		 6.09665
+c69         		 6.2162
+c70         		 6.33809
+c71         		 6.46238
+c72         		 6.5891
+c73         		 6.71831
+c74         		 6.85005
+a1          		 0
+a2          		 -0.14805
+a3          		 -0.18022
+a4          		 -0.198343
+a5          		 -0.215715
+a6          		 -0.232424
+a7          		 -0.248717
+a8          		 -0.265151
+a9          		 -0.281274
+a10         		 -0.297828
+a11         		 -0.24302
+a12         		 -0.105602
+a13         		 0.123091
+a14         		 0.443365
+a15         		 0.853331
+a16         		 1.33875
+a17         		 1.88215
+a18         		 2.47559
+a19         		 3.10761
+a20         		 3.77644
+a21         		 4.49261
+a22         		 5.26917
+a23         		 6.11127
+a24         		 7.02935
+a25         		 8.22364
+a26         		 9.30453
+a27         		 10.4606
+a28         		 11.6845
+a29         		 12.982
+a30         		 14.3661
+a31         		 15.8459
+a32         		 17.4157
+a33         		 19.0559
+a34         		 20.7234
+a35         		 22.3914
+a36         		 24.0028
+a37         		 25.5467
+a38         		 26.9875
+a39         		 28.2919
+a40         		 29.4829
+a41         		 30.5084
+a42         		 31.3426
+a43         		 32.0218
+a44         		 31.4378
+a45         		 30.8388
+a46         		 30.1967
+a47         		 29.5977
+a48         		 28.9655
+a49         		 28.2115
+a50         		 27.5294
+a51         		 26.8238
+a52         		 26.1588
+a53         		 25.4779
+a54         		 24.7798
+a55         		 24.0529
+a56         		 23.3642
+a57         		 22.681
+a58         		 22.0385
+a59         		 21.3565
+a60         		 20.7663
+a61         		 20.2472
+a62         		 19.8314
+a63         		 19.5362
+a64         		 19.3868
+a65         		 19.402
+a66         		 19.6326
+a67         		 20.1481
+a68         		 21.3406
+a69         		 22.959
+a70         		 25.6552
+a71         		 29.748
+a72         		 36.1421
+a73         		 45.6805
+a74         		 60.4185
+a75         		 0
+lambda1     		 0
+lambda2     		 0
+lambda3     		 0.0693801
+lambda4     		 0.0571708
+lambda5     		 0.0430804
+lambda6     		 0.0332765
+lambda7     		 0.0266373
+lambda8     		 0.022284
+lambda9     		 0.0183355
+lambda10    		 0.000790247
+lambda11    		 0
+lambda12    		 0
+lambda13    		 0
+lambda14    		 0
+lambda15    		 0
+lambda16    		 0
+lambda17    		 0
+lambda18    		 0
+lambda19    		 0
+lambda20    		 0
+lambda21    		 0
+lambda22    		 0
+lambda23    		 0
+lambda24    		 0
+lambda25    		 0
+lambda26    		 0
+lambda27    		 0
+lambda28    		 0
+lambda29    		 0
+lambda30    		 0
+lambda31    		 0
+lambda32    		 0
+lambda33    		 0
+lambda34    		 0
+lambda35    		 0
+lambda36    		 0
+lambda37    		 0
+lambda38    		 0
+lambda39    		 0
+lambda40    		 0
+lambda41    		 0
+lambda42    		 0
+lambda43    		 0
+lambda44    		 0
+lambda45    		 0
+lambda46    		 0
+lambda47    		 0
+lambda48    		 0
+lambda49    		 0
+lambda50    		 0
+lambda51    		 0
+lambda52    		 0
+lambda53    		 0
+lambda54    		 0
+lambda55    		 0
+lambda56    		 0
+lambda57    		 0
+lambda58    		 0
+lambda59    		 0
+lambda60    		 0
+lambda61    		 0
+lambda62    		 0
+lambda63    		 0
+lambda64    		 0
+lambda65    		 0
+lambda66    		 0
+lambda67    		 0
+lambda68    		 0
+lambda69    		 0
+lambda70    		 0
+lambda71    		 0
+lambda72    		 0
+lambda73    		 0
+lambda74    		 0
+pi1         		 0.22869
+pi2         		 0.257889
+pi3         		 0.283402
+pi4         		 0.305785
+pi5         		 0.326047
+pi6         		 0.344413
+pi7         		 0.361331
+pi8         		 0.377653
+pi9         		 0.392761
+pi10        		 0.407721
+pi11        		 0.422978
+pi12        		 0.43857
+pi13        		 0.452803
+pi14        		 0.465326
+pi15        		 0.473995
+pi16        		 0.478525
+pi17        		 0.480952
+pi18        		 0.480907
+pi19        		 0.480006
+pi20        		 0.480598
+pi21        		 0.482675
+pi22        		 0.484807
+pi23        		 0.48795
+pi24        		 0.490902
+pi25        		 0.491769
+pi26        		 0.491708
+pi27        		 0.490144
+pi28        		 0.489013
+pi29        		 0.487737
+pi30        		 0.48759
+pi31        		 0.484647
+pi32        		 0.478671
+pi33        		 0.466631
+pi34        		 0.450021
+pi35        		 0.427633
+pi36        		 0.403359
+pi37        		 0.376481
+pi38        		 0.348622
+pi39        		 0.318983
+pi40        		 0.2889
+pi41        		 0.257403
+pi42        		 0.22699
+x74         		 42.5402
+q25         		 0.119029
+w           		 1
+rk          		 0.142973
+r           		 0.042973
+price       		 0.856062
+tau         		 0.253488
+PI          		 12.3938
+Y           		 86.1051
+N           		 35.2964
+L           		 54.1948
+C           		 54.4576
+K           		 136.505
+gov_rev     		 16.616
+gov_deficit 		 0.0613415
+gov_debt    		 0.220774
+I           		 18.2673
+A_adj       		 0.85376
+IY          		 0.212151
+LS          		 0.629402
+BY          		 0.000933808
+E           		 1.94024
+d           		 0.376989
+   
+DYNARE-Statistics
+   
+Year  Capital (K)  Labor (L)  Population (N)
+0     136.5054       54.1948     35.2964
+   
+Income (Y)  Consumption (C)  Agg. Profit (PI)
+86.1051     54.4576          12.3938    
+   
+Wage (w)  Rental K (rk)  Interest (r)  Wage Tax (tau)
+1         0.14297        0.042973      0.25349
+   
+Bequest (q25*fert_25)  q25     x74/(1+AL_growth)^74
+0.16664                0.11903  0.027494
+   
+Pop Growth (n)  
+0.01355
+   
+Debt (b*Y/K)  
+0.22077
+   
+G (g*Y)  
+13.3807
+Total computing time : 0h00m02s
