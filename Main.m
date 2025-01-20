@@ -1,4 +1,7 @@
 %--------------------------------------------------------------------------
+% VALDER Ø. FREDENS, SPECIALE / MASTER'S THESIS
+% Kode til simularing af baseline / code to simulate the baseline
+% % Koden er baseret på / the code is based on:
 % Authors: Alex Crescentini & Federico Giri.
 % Università Politecnica delle Marche, Ancona, Italy.
 % January 2023.
@@ -47,7 +50,7 @@ run_calibration=0; %Choose run_calibration=1 if you want to recalibrate the mode
 %%Parameters that change with SS
 
     %2024 (det vil sige de parametre, som skal gælde, når modellen slutter i steady state i den terminale periode)
-    datasurvival1_2024 = readmatrix('data/data_survival_1_2024.xlsx');                  %2024 overlevelsessandsynligheders. Fra FN. 
+    datasurvival1_2024 = readmatrix('data/data_survival_1_2024.xlsx');                  %2024 overlevelsessandsynligheder. Fra FN. 
     datasurvival2_2024 = readmatrix('data/data_survival_2_2024.xlsx');                  %2024 overlevelsessandsynligheder. 
     data_uncond_survival_2024 = readmatrix('data/data_uncondit_survival_2024.xlsx');    %2024 overlevelsessandsynligheder.
     n_2024 = -0.007906615;                                                              %Befolkningsvækst i steady state. Baseret på ligning (2). Beregnet i exo_matrix_start100. Egg: -0.002578211534468.
@@ -169,5 +172,5 @@ load 'D:\Programmer\Dynare\6.0\matlab\kode\Speciale\Eggertsson2019_CrescentiniGi
 
 
 %%Output Comparison
-
+%Sammenligner resultaterne med Eggertsson m.fl.
 run('plot_comparison.m');
