@@ -1,4 +1,7 @@
 %--------------------------------------------------------------------------
+% VALDER Ø. FREDENS, SPECIALE / MASTER'S THESIS
+% Kode til simularing af baseline / code to simulate the baseline
+% Koden er baseret på / the code is based on:
 % Authors: Alex Crescentini & Federico Giri.
 % Università Politecnica delle Marche, Ancona, Italy.
 % January 2023.
